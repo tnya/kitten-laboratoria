@@ -1,0 +1,18 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.flex-container{
+	display:flex;
+}
+
+.contenedor{
+	background-image: url(../img/Landscape.jpg);
+	
+	width:100vw;/* vw y vh hizo toda la magia para que el fondo quedara centrado y ocupando todo el tamaño de la pantalla */
+	height: 100vh;/* vw y vh se adaptan al tamaño del navegador */
+	justify-content: center;
+	background-size: cover;
+	align-items:flex-end;
+}

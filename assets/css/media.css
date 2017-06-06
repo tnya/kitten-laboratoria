@@ -1,0 +1,14 @@
+@media (min-width: 535px) and (max-width:824px){
+	.contenedor{/* tiene que ser igual que en css. No usar img{} porque no existe en la carpeta de style */
+	background-image: url(../img/dawn.png);
+	}
+
+}
+
+@media (min-width: 200px) and (max-width: 534px){
+	.contenedor{
+	background-image: url(../img/maxresdefault.jpg);
+	}
+
+}
+	
